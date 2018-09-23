@@ -1,0 +1,1145 @@
+/* __________________________________________ Reset  __________________________________________  */
+* {
+	box-sizing: border-box;
+}
+*:focus {
+	outline: none;
+}
+body{
+	margin: 0;
+	background-color: #fff;
+	color: #777777;
+	font: 300 15px/1 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-weight: normal;
+}
+blockquote {
+	margin: 0;
+}
+p {
+	margin: 0;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+a:hover, a:active{
+	text-decoration: none;
+}
+ul, ol{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+img {
+	max-width: 100%;
+}
+input,
+textarea,
+button {
+	outline: none;
+	border: none;
+	cursor: pointer;
+	padding: 0;
+}
+input[type="submit"] {
+	cursor: pointer;
+}
+textarea {
+	resize: vertical;
+}
+/* __________________________________________ Reset end  __________________________________________  */
+
+/* __________________________________________ Default classes  __________________________________________  */
+/* .text-color .text-align .float .background-color */
+.text-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}
+.text-justify {
+	text-align: justify;
+}
+.bg-black {
+	background-color: #111;
+}
+.bg-grey {
+	background-color: #f8f8f8;
+}
+.m-auto {
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+.pull-left {
+	float: left;
+}
+.pull-right {
+	float: right;
+}
+.signature {
+	color: #aaa;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 11px;
+}
+.signature .fa {
+	font-size: 12px;
+}
+/* __________________________________________ Default classes end __________________________________________  */
+
+/* __________________________________________ Guid-section __________________________________________ */
+.guid-section form .form-control + .form-control {
+	margin-bottom: 10px;
+}
+/* __________________________________________ Guid-section end __________________________________________ */
+
+/* __________________________________________ Default component  __________________________________________  */
+/* .buttons .text .title .section .header .footer .inputs .icons .tabs .blockquote .container */
+/* ========================================== Title  ===== */
+.title {
+	font-family: 'Dosis', sans-serif;
+	text-transform: uppercase;
+	color: #111;
+	line-height: 1.444;
+}
+.title.title-white {
+	color: #fff;
+}
+.title.section-title {
+	font-size: 18px;
+	letter-spacing: .5em;
+	margin-bottom: 75px;
+	font-weight: 400;
+}
+.title.section-title-light {
+	font-size: 18px;
+	letter-spacing: .3em;
+	margin-bottom: 20px;
+	font-weight: 300;
+}
+.default-text {
+	font-size: 15px;
+	line-height: 1.733em;
+	font-weight: 300;
+}
+blockquote,
+.blockquote {
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 1.6;
+}
+blockquote span,
+.blockquote {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+}
+@media (max-width:991px) {
+	blockquote {
+		margin-bottom: 30px;
+	}
+	.title.section-title {
+		margin-bottom: 50px;
+	}
+}
+@media (max-width:576px) {
+	.title {
+		text-align: center;
+	}
+}
+/*========================================== Title end ===== */
+
+/* ========================================== Buttons  ===== */
+.btn { 
+	display: inline-block;
+	padding: 12px 20px;
+	border-radius: 2px;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: .2em;
+}
+.btn[disabled] {
+	cursor: not-allowed;
+	opacity: .6;
+}
+.btn.btn-default {
+	background-color: #e5e5e5;
+	color: #777;
+}
+.btn.btn-default:hover {
+	background-color: #d1d0d0;
+	color: #777;
+}
+.btn.btn-black {
+	background-color: #323232;
+	color: #fff;
+}
+.btn.btn-black:hover {
+	background-color: #000;
+}
+.btn.btn-xs {
+	padding: 7px 15px;
+	font-size: 11px;
+}
+@media (max-width:576px) {
+	.btn {
+		width: 100%;
+	}
+}
+/* ========================================== Buttons end ===== */
+
+/* ========================================== Forms ===== */
+.form-control {
+	width: 100%;
+	border-radius: 2px;
+	border: 1px solid #e5e5e5;
+	height: 36px;
+	font-size: 12px;
+	font-family: 'Open Sans', serif;
+	font-weight: 400;
+	letter-spacing: .2em;
+	text-transform: uppercase;
+	color: #777;
+	padding: 0 13px;
+}
+.form-control:focus {
+	border-color: #111;
+}
+textarea.form-control {
+	min-height: 82px;
+	padding-top: 10px;
+}
+.form-control[disabled],
+.form-contror.disabled {
+	cursor: not-allowed;
+	opacity: .6;
+}
+.form-control.error {
+	color: #f57e7e;
+}
+input[type="submit"] {
+	cursor: pointer;
+}
+.form-info .fa {
+	font-size: 12px;
+}
+/* ========================================== Forms end ===== */
+
+/* ========================================== Icons ===== */
+.icons {
+	font-size: 48px;
+}
+.rhomb-icon {
+	display: inline-block;
+	width: 23px;
+	height: 23px;
+	text-align: center;
+	line-height: 23px;
+	border-radius: 2px;
+	font-size: 14px;
+	transform: rotate(45deg);
+}
+.rhomb-icon.black-icon {
+	color: #fff;
+	background-color: #111;
+}
+.rhomb-icon.white-icon {
+	color: #111;
+	background-color: #fff;
+}
+.transparent-icon .rhomb-icon {
+	color: #000;
+	background-color: rgba(0, 0, 0, 0);
+	border: 1px solid #000;
+}
+.rhomb-icon i {
+	transform: rotate(-45deg);
+}
+.arrow-up {
+	font-size: 50px;
+	color: #c6c6c6;
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	cursor: pointer;
+}
+/* ========================================== Icons end  ===== */
+
+/* __________________________________________ Default component end __________________________________________  */
+
+/* __________________________________________ Landidng blocks __________________________________________  */
+
+/* ========================== 0 Header  ===== */
+.header {
+	padding: 30px 0;
+	background-color: rgba(0, 0, 0, 0);
+	position: absolute;
+	z-index: 99;
+	top: 0;
+	width: 100%;
+}
+.header li {
+	vertical-align: middle;
+}
+.header .logo {
+	float: left;
+	line-height: 0;
+}
+.header .header-nav {
+	float: right;
+}
+.header .header-nav li {
+	float: left;
+	margin-left: 30px;
+	color: rgba(254, 254, 254, .75);
+	line-height: 21px;
+	text-transform: uppercase;
+	font-size: 11px;
+	letter-spacing: .3em;
+	font-weight: 400;
+}
+.header .header-nav li + li {
+	margin-left: 30px;
+}
+.default-section {
+	padding: 135px 0;
+}
+.small-section {
+	padding: 70px 0;
+}
+.container {
+	max-width: 1200px;
+	padding: 0 15px;
+	margin: auto;
+}
+.container-fluid {
+	position: relative;
+	padding: 0 15px;
+}
+.slicknav_menu {
+	display: none;
+}
+@media (max-width: 991px) {
+	.default-section {
+		padding: 75px 0;
+	}
+	.slicknav_menu {
+		display: block;
+	}
+	.header-nav {
+		display: none;
+	}
+}
+/* ========================== 0 Header end ===== */
+
+/* ============================ 1 Inner  ===== */
+.inner {
+	background: url('../img/inner-bg.jpg') no-repeat center / cover;
+	height: 100vh;
+	padding-top: 73px;
+	position: relative;
+}
+.inner .rhomb-icon {
+	position: absolute;
+	bottom: 35px;
+}
+.inner::before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	margin-left: -4px;
+}
+.inner-content {
+	display: inline-block;
+	vertical-align: middle;
+} 
+.title.inner-title {
+	font-size: 30px;
+	font-weight: 400;
+	color: rgba(254, 254, 254, .9);
+	letter-spacing: 1.7em;
+	text-indent: 1.7em;
+	margin-bottom: 90px;
+}
+.inner span {
+	display: block;
+	font-size: 19px;
+	font-weight: 300;
+	letter-spacing: 0mm;
+	text-transform: none;
+	color: rgba(254, 254, 254, .68);
+	text-indent: 0;
+}
+@media (max-width: 991px) {
+	.title.inner-title {
+		letter-spacing: 1.3em;
+		text-indent: 1.3em;
+		margin-bottom: 50px;
+	}
+}	
+@media (max-width: 767px) {
+	.inner {
+		height: auto;
+		padding: 150px 0;
+	}
+	.title.inner-title {
+		letter-spacing: .7em;
+		text-indent: 0.7em;
+		margin-bottom: 30px;
+	}
+}
+@media (max-width: 576px) {
+	.title.inner-title {
+		letter-spacing: .2em;
+		text-indent: 0.2em;
+		margin-bottom: 15px;
+	}
+	.inner span {
+		line-height: 24px;
+		padding-left: 30px;
+		padding-right: 30px;
+		font-size: 16px;
+	}
+}
+@media (max-width: 320px) {
+	.title.inner-title {
+		letter-spacing: 0.1em;
+		text-indent: 0.1em;
+	}
+}
+/* ========================== 1 Inner end ===== */
+
+/* ========================== 2 About studio  ===== */
+.about-studio {
+	border-bottom: 1px solid rgba(0, 0, 0, .08);
+}
+.team-wrapper {
+	margin-top: 100px;
+}
+.team-item-info {
+	padding: 30px;
+}
+.team-item-info span {
+	font-family: 'Dosis', sans-serif;
+	letter-spacing: .4em;
+	display: block;
+	text-transform: uppercase;
+}				
+.team-item-name {
+	font-size: 15px;
+}
+.team-item-position {
+	font-size: 12px;
+	margin-top: 15px;
+}
+.team-item .team-item-img {
+	position: relative;
+	-webkit-filter: grayscale(100%);
+}
+.team-item .team-item-img:hover {
+	-webkit-filter: grayscale(0%);
+}
+.team-item .team-item-skills {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	transition: all .5s linear;
+	padding: 40px;
+}
+.team-item .team-item-img:hover .team-item-skills {
+	opacity: 1;
+}
+.skill-item .skill-name {
+	display: block;
+	font-size: 11px;
+	color: rgba(255, 255, 255, 0.9);
+	letter-spacing: .2em;
+	text-transform: uppercase;
+	margin-bottom: 7px;
+}
+.progress-wrapp {
+	width: 100%;
+	height: 12px;
+	background-color: rgba(255, 255, 255, .15);
+}
+.progress-wrapp .progress {
+	background-color: rgba(255, 255, 255, .75);
+	height: 12px;
+	width: 0%;
+	overflow: hidden;
+}
+.progress-wrapp .progress.branding {
+	transition: width .5s ease-out;
+}
+.progress-wrapp .progress.development {
+	transition: width .5s ease-out .2s;
+}
+.progress-wrapp .progress.design {
+	transition: width .5s ease-out .3s;
+}
+.progress-wrapp .progress.photography {
+	transition: width .5s ease-out .4s;
+}
+.team-item .team-item-img:hover .branding {
+	width: 80%;
+}
+.team-item .team-item-img:hover .development {
+	width: 60%;
+}
+.team-item .team-item-img:hover .design {
+	width: 40%;
+}
+.team-item .team-item-img:hover .photography {
+	width: 20%;
+}
+.progress-wrapp {
+	margin-bottom: 20px;
+}
+.team-item-skills .title {
+	display: block;
+	padding-bottom: 10px;
+}
+.team-item-skills p {
+	font-size: 13px;
+	line-height: 21px;
+	color: rgba(255, 255, 255, 0.5);
+	padding-bottom: 40px;
+}
+@media(max-width: 991px) {
+	.team-item-info {
+		padding: 15px;
+	}
+	.team-wrapper {
+		margin-top: 50px;
+	}
+}
+@media(max-width: 767px) {
+	.team-item-info {
+		margin-bottom: 30px;
+	}
+	.team-item-img {
+		text-align: center;
+		width: 100%;
+		max-height: 450px;
+		overflow: hidden;
+	}
+	.team-item-img img {
+		width: 100%;
+	}
+	.about-studio p {
+		margin-bottom: 20px;
+	}
+	.team-wrapper {
+		margin-top: 20px;
+	}
+}
+@media(max-width: 576px) {	
+	.team-item-skills .title {
+		margin-bottom: 50px;
+	}
+	.team-item-skills p {
+		display: none;
+	}
+}
+/* ========================== 2 About studio end ===== */
+
+/* ========================== 3 Servises ===== */
+#tabs .tabs-nav {
+	overflow: hidden;
+	margin-bottom: 80px;
+}
+#tabs .tabs-nav li {
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+#tabs .tabs-nav li span {
+	display: block;
+}
+.servises-name {
+	font-family: 'Dosis', sans-serif;
+	font-size: 14px;
+	letter-spacing: .4em;
+	text-transform: uppercase;
+	margin-top: 35px;
+	font-weight: 400;
+}
+#tabs .tabs-nav li a {
+	color: rgba(17, 17, 17, .5)
+}
+#tabs .tabs-nav li a:focus {
+	color: rgb(17, 17, 17);
+}
+#tabs .tabs-nav li a:hover{
+	color: rgb(17, 17, 17);
+}
+#ui-tabs-panel {
+	clear: both;
+}
+@media (max-width:991px) {
+	.servises-name {
+		font-size: 12px;
+		letter-spacing: .2em;
+	}
+	#tabs .tabs-nav {
+		margin-bottom: 50px;
+	}
+}
+@media (max-width:767px) {
+	#tabs .tabs-nav li {
+		width: 33.333%;
+		margin-top: 50px;
+	}
+	.servises-name {
+		font-size: 14px;
+	}
+}
+@media (max-width:576px) {
+	#tabs .tabs-nav li {
+		width: 50%;
+	}
+	.servises-name {
+		margin-top: 15px;
+	}
+	.tabs-wrapper p {
+		margin-top: 20px;
+	}
+}
+/* ========================== 3 Servises end ===== */
+
+/* =========================== 4 Lets talk ===== */
+.lets-talk-content {
+	padding: 140px 0;
+}
+.lets-talk-content p {
+	color: rgba (255, 255, 255, .7);
+	margin-bottom: 35px;
+	line-height: 1.73;
+}
+.lets-talk .lets-talk-img {
+	margin-top: -32px;
+}
+@media (max-width:991px) {
+	.lets-talk-content {
+		text-align: center;
+		padding: 70px 0;
+	}
+	.lets-talk-content p {
+		padding: 0 40px;
+	}
+}
+@media (max-width:576px) {
+	.lets-talk-content {
+		text-align: center;
+		padding: 70px 15px;
+	}
+	.lets-talk-content p {
+		padding: 0 40px;
+	}
+}
+/* =========================== 4 Lets talk end ===== */
+
+/* =========================== 5 Portfolio ===== */
+.tabs-portfolio-wrapper {
+	overflow: hidden;
+}
+.portfolio-section {
+	padding-top: 135px;
+	margin-top: 4px;
+}
+.portfolio-content {
+	max-width: 760px;
+	margin: 0 auto;
+	text-align: center;
+}
+#tabs-portfolio {
+	margin-left: -4px;
+	margin-right: -4px;
+}
+#tabs-portfolio .tabs-nav  {
+	overflow: hidden;
+	margin-top: 80px;
+	margin-bottom: 50px;
+}
+#tabs-portfolio .tabs-nav li {
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+#tabs-portfolio .tabs-nav li span {
+	display: block;
+}
+#tabs-portfolio .portfolio-item {
+	float: left;
+	width: 33.3333%;
+	padding: 0 4px 4px;
+}
+#tabs-portfolio .portfolio-item + .portfolio-item {
+	padding: 0 4px 4px;
+}
+.portfolio-item img {
+	width: 100%;
+	-webkit-filter: grayscale(100%)
+}
+.portfolio-item img:hover {
+	-webkit-filter: grayscale(0%)
+}
+.portfolio-types {
+	font-family: 'Dosis', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	letter-spacing: .4em;
+	text-transform: uppercase;
+	color: rgba(17, 17, 17, .5);
+}
+.tabs-nav.portfolio-types a:focus  {
+	color: rgb(17, 17, 17);
+}
+.tabs-nav.portfolio-types a:hover  {
+	color: rgb(17, 17, 17);
+}
+@media (max-width:991px) {
+	#tabs-portfolio .portfolio-item {
+		width: 50%;
+	}
+	.tabs-portfolio-wrapper .portfolio-content {
+		padding: 0 15px;
+	}
+}
+@media (max-width:576px) {
+	#tabs-portfolio .tabs-nav li {
+		width: 100%;
+		padding-bottom: 15px;
+		margin-bottom: 15px;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.15)
+	}
+	.portfolio-types {
+		font-size: 14px;
+	}
+	#tabs-portfolio .portfolio-item {
+		width: 100%;
+	}
+}
+/* ===========================  / Portfolio ===== */
+
+/* =========================== 6 Like Our Creative Works? ===== */
+@media (max-width:991px) {
+	.like-our-creative-works {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+/* ===========================  / Like Our Creative Works? ===== */
+
+/* =========================== 7 Why Choose Us? ===== */
+.why-choose-us .why-choose-us-titles {
+	font-family: 'Dosis', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #111;
+	letter-spacing: .4em;
+	text-transform: uppercase;
+	display: block;
+	margin: 30px 0;
+}
+.why-choose-us span {
+	text-align: center;
+}
+.why-choose-us .row + .row {
+	margin-top: 75px;
+} 
+.why-choose-us .wy-us-icons {
+	font-size: 48px;
+	color: rgb(17, 17, 17);
+	display: block;
+}
+@media (max-width:991px) {
+	.why-choose-us  {
+		text-align: center;
+	}
+	.why-choose-us .wy-us-icons {
+		margin-top: 50px;
+	}
+	.why-choose-us .row + .row {
+		margin-top: 0px;
+	}
+}
+/* ===========================  / Why Choose Us? ===== */
+
+/* =========================== 8 Review carousel ===== */
+.rewiews-carousel {
+	padding: 135px 0;
+	overflow: hidden;
+}
+.rewiews-carousel .slide-content {
+	margin-left: auto;
+	margin-right: auto;
+	width: 730px;
+}
+.rewiews-carousel .icon {
+	color: #fff;
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+.rewiews-carousel p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	color: rgba(255, 255, 255, .75) ;
+	margin-top: 40px;
+	margin-bottom: 25px;
+	line-height: 1.6667;
+}
+.rewiews-carouse .review-author {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+	color: rgba(255, 255, 255, .3);
+	text-transform: uppercase;
+}
+.slick-dots {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	bottom: 30px;
+}
+.slick-dots li {
+	display: inline-block;
+	width: 9px;
+	height: 9px;
+	background-color: rgba(255, 255, 255, .8);
+	border: 1px solid #000;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.slick-dots li.slick-active {
+	background-color: #000;
+	border-color: rgba(255, 255, 255, .8);
+}
+.slick-dots li button {
+	display: none;
+}
+.slick-dots li + li {
+	margin-left: 5px;
+}
+.slick-arrow {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: 1;
+	cursor: pointer;
+}
+.slick-arrow.slick-prev {
+	left: 0;
+}
+.slick-arrow.slick-next {
+	right: 0;
+}
+.slick-arrow .carousel-button {
+	width: 63px;
+	height: 63px;
+	background: #fff;
+	text-align: center;
+	transform: rotate(-45deg);
+	position: absolute;
+	top: 50%;
+	margin-left: -32px;
+	margin-top: -31px;
+}
+.slick-arrow.slick-next .carousel-button {
+	right: 0;
+	margin-right: -31px;;
+}
+.slick-arrow .carousel-button .fa {
+	position: absolute;
+	transform: rotate(45deg);
+	font-size: 10px;
+}
+.slick-arrow.slick-prev .carousel-button .fa {
+	bottom: 14px;
+	right: 17px;
+}
+.slick-arrow.slick-next .carousel-button .fa {
+	top: 17px;
+	left: 14px;
+}
+@media (max-width:767px) {
+	.rewiews-carousel .slide-content {
+		width: 100%;
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+}
+/* =========================== / Review carousel ===== */
+
+/* =========================== 9 Latest news ===== */
+.news .news-section .news-title {
+	padding-top: 30px;
+}
+.news .container {
+	position: relative;
+}
+.news .our-blog {
+	font-family: 'Dosis', sans-serif;
+	font-size: 11px;
+	color: #999;
+	text-transform: uppercase;
+	letter-spacing: .4em;
+	cursor: pointer;
+	position: absolute;
+	right: 15px;
+	text-indent: .4em;
+}
+.news .news-section span {
+	display: block;
+	margin-bottom: 25px;
+}
+.news .news-section .news-title {
+	font-family: 'Dosis', sans-serif;
+	font-size: 15px;
+	color: #777;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	margin-bottom: 12px;
+}
+.news .news-section .news-date {
+	font-family: 'Dosis', sans-serif;
+	font-size: 11px;
+	color: #999;
+	text-transform: uppercase;
+	letter-spacing: .4em;
+}
+.news .news-section p {
+	margin-bottom: 25px;
+}
+.news .news-section img {
+	-webkit-filter: grayscale(100%);
+}
+.news .news-section img:hover {
+	-webkit-filter: grayscale(0%);
+}
+@media (max-width:991px) {
+	.news .news-section img {
+		width: 100%;
+	}
+	.news .news-section {
+		margin-bottom: 30px;
+		padding-bottom: 30px;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+		}
+}
+@media (max-width:576px) {
+	.news .our-blog {
+		display: block;
+		padding-top: 30px;
+	}
+	.news .title  {
+		text-align: center;
+	}
+}
+/* =========================== / Latest news  ===== */
+
+/* =========================== 10 STAY INFORMED  ===== */
+.subscribe .form-control {
+	max-width: 290px;
+}
+.subscribe .signature {
+	margin-top: 17px;
+	line-height: 26px;
+}
+@media (max-width:576px) {
+	.subscribe .form-control {
+		max-width: 100%;
+		margin-bottom: 10px;
+	}
+
+}
+/* =========================== / STAY INFORMED  ===== */
+
+/* =========================== 11 Contacts ===== */
+.contact-item .contact-item-content {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 15px;
+}
+.contact-item .contact-item-content .contact-title {
+	font-family: 'Dosis', sans-serif;
+	font-size: 12px;
+	color: #777;
+	text-transform: uppercase;
+	letter-spacing: .3em;
+} 
+.contact-item .contact-item-content .contact-data {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	color: #777;
+	line-height: 24px;
+} 
+.contact-item .contact-item-content span {
+	display: block;
+}
+.contact-items-wrapper {
+	margin-bottom: 80px;
+
+}
+.contact-items-wrapper .signature {
+	margin-top: 30px;
+}
+.form-info.signature {
+	line-height: 38px;
+}
+.contact-form {
+	margin: 0 -5px;
+}
+.form-row {
+	margin: 0 -5px;
+	overflow: hidden;
+}
+.contact-form .form-col {
+	float: left;
+	width: 50%;
+	padding: 0 5px;
+}
+.contact-form .form-control + .form-control {
+	margin-top: 10px;
+}
+.form-submit {
+	margin-top: 20px;
+}
+@media (max-width:991px) {
+	.contact-items-wrapper .rhomb-icon {
+		display: block;	
+		margin: 20px auto;
+	}
+	.contact-items-wrapper {
+		text-align: center;				
+	}
+	.contact-item .contact-item-content {
+		margin-left: 0px;
+	}
+	.contact-item {
+		padding-top: 20px;
+	}
+}		
+@media (max-width:767px) {
+	.contact-form .form-col {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.contact-form b.form-row{
+		width: 100%;
+	}
+}	
+/* =========================== / Contacts ===== */
+
+/* =========================== 12 Map ===== */
+#map {
+	height: 410px;
+}
+.map-container {
+	position: relative;
+}
+.on-map-block {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.90);
+	top: 0;
+	left: 0;
+}
+.map-container:hover .on-map-block {
+	display: none;
+}
+.on-map-block::before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+.on-map-block .map-title {
+	letter-spacing: .3em;
+	font-size: 16px;
+	color: rgba(255, 255, 2554, .75);
+	font-family: 'Dosis', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: .3em;
+	font-weight: 300;
+}
+.map-content {
+	display: inline-block;
+}
+.map-content .map-title {
+	margin-top: 30px;
+}
+.map-content .map-title{
+	font-size: 16px;
+	letter-spacing: .3em;
+}
+/* =========================== / Map ===== */
+
+/* =========================== 13 Footer ===== */
+.footer {
+	padding-top: 140px;
+	padding-bottom: 60px;
+} 
+.footer-logo {
+	margin-bottom: 25px;
+}
+.footer .icon-footer {
+	margin: 0 auto;
+	text-align: center;
+}
+.footer  li{
+	margin-left: 15px;
+	display: inline-block;
+}
+.footer .rhomb-icon {
+	line-height: 21px;
+	border-radius: 3px;
+	font-size: 13px;
+}
+.footer .footer-info {
+	color: #111;
+	margin-top: 105px;
+}
+.footer .footer-info span {
+	display: block;
+	line-height: 24px;
+}
+.foter-site-age {
+	font-family: 'Dosis', sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+}
+/* =========================== / Footer ===== */
+
+/* __________________________________________ Landidng blocks end __________________________________________   */
+
+/* __________________________________________ Media  __________________________________________   */
+/* Comp & Notes >1300 */
+/* Netnbook, notebook, planshet albom */ /* Styles for 992-1200px */
+@media (max-width: 1200px) {
+}
+/* planshet >7" portret , 7" portret */	/* Styles for 768-991px */
+@media (max-width: 991px) {
+}
+/* planshet <7" albom , tel */	/* Styles for 577-767 */
+@media (max-width: 767px) {
+}
+/* planshet <7" albom , tel */	/* Styles for 480-576 */
+@media (max-width: 576px) {
+}
+/* v sluchae neobhodimosti tel */	/* Styles for -479 */
+@media (max-width: 479px) {
+}
