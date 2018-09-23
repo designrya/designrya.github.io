@@ -1,0 +1,60 @@
+.tag-list {
+    margin-bottom: 59px;
+}
+.tag-list a {
+    display: inline-block;
+    background-color: #fff;
+    color: #263238;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 13px 27px;
+}
+.tag-list a + a {
+    margin-left: 6px;
+}
+.tag-list a:hover, .tag-list a:focus, .tag-list .active {
+    background-color: #e74c3c;
+    color: #fff;
+    box-shadow: 0 2px 5px 0 rgba(202, 215, 228, 0.75);
+}
+.mobile-list-wrap {
+    display: none;
+}
+.mobile-list {
+    color: #263238;
+    font-weight: 500;
+    font-size: 14px;
+    width: 100%;
+}
+.mobile-list .current {
+    padding: 15px 30px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 767px) {
+    .mobile-list-wrap {
+        display: flex;
+        margin-bottom: 50px;
+    }
+    .mobile-list .current .fa-close {
+        display: none;
+    }
+    .mobile-list .current.selected .fa-close {
+        display: block;
+    }
+    .mobile-list .current.selected .fa-chevron-down {
+        display: none;
+    }
+    .mobile-list .dropdown-list {
+        display: none;
+        background-color: #fff;
+        padding: 15px 30px;
+    }
+    .mobile-list .dropdown-list a {
+        display: block;
+    }
+    .mobile-list .dropdown-list a + a {
+        margin-top: 10px;
+    }
+}

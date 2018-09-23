@@ -1,0 +1,140 @@
+/* --- Profile details page start --- */
+.profile-details-wrapp .profile-details-banner {
+    background-color: #fff;
+    padding: 18px;
+    border: 1px solid #dcdcdc;
+}
+.profile-details-wrapp .profile-details-img {
+    background: #d4d4d4;
+    height: 332px;
+}
+.profile-details-img .banner-text {
+    font-size: 36px;
+    color: #f4f6f5;
+}
+.profile-items {
+    border: 1px solid #dcdcdc;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.profile-items .profile-items-list {
+    width: 25%;
+    height: 78px;
+    text-align: center;
+    background-color: #fff;
+    padding: 22px 0 18px;
+}
+.profile-items .profile-items-list + .profile-items-list {
+    border-left: 1px solid #dcdcdc;
+}
+.profile-items-list .rating-count {
+    margin-left: 8px;
+}
+.profile-items-list .profile-item-price {
+    color: #000;
+}
+.profile-details-wrapp .tab-content {
+    background-color: #fff;
+    border: 1px solid #d7d7d7;
+}
+.tab-content .skills-wrapper {
+    margin-top: 45px;
+}
+.skills-wrapper .skill-item + .skill-item {
+    margin-top: 25px;
+}
+.skills-wrapper .skill-item .skill-name {
+    font-size: 16px;
+    font-weight: 500;
+    font-style: italic;
+    color: #263238;
+}
+.skills-wrapper .skill-item .progress {
+    background-color: #f4f4f4;
+}
+.profile-details-wrapp .aside-section .product-author-wrapp {
+    padding-bottom: 44px;
+}
+.product-author-wrapp .view-profile-btn .fa {
+    color: #8bc34a;
+    margin-right: 8px;
+}
+.profile-details-wrapp .sprites {
+    margin-bottom: 25px;
+}
+.profile-details-wrapp .sprites.socials i + i {
+    margin-left: 8px;
+}
+.profile-details-wrapp .btn-lg.btn-darcblue {
+    margin-bottom: 15px;
+}
+.profile-details-wrapp .aside-tabs {
+    margin-top: 30px;
+    background-color: #fff;
+    border: 1px solid #d7d7d7;
+}
+.nav-pills .nav-link {
+    border-radius: 0;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 18px 22px;
+    border-bottom: 1px solid #d7d7d7;
+}
+.nav-pills .nav-link.active, 
+.nav-pills .show>.nav-link {
+    color: #263238;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    border-bottom: 2px solid #8bc34a;
+}
+.profile-details-wrapp .aside-tabs .fa {
+    margin-right: 14px;
+}
+@media (max-width: 991px) {
+    .profile-details-wrapp .aside-section .sprites {
+        justify-content: center !important;
+    }
+    .profile-details-wrapp .sprites i + i {
+        margin-left: 8px;
+    }
+    .profile-details .mobile-aside-toggle {
+        margin-left: auto;
+        position: relative;
+        top: -54px;
+    }
+    .profile-details-wrapp .mobile-aside button{
+        box-shadow: none;
+    }
+}
+@media (max-width: 767px) {
+    .container {
+        max-width: 767px;
+    }
+     .profile-items {
+        flex-wrap: wrap;
+    }
+    .profile-items .profile-items-list {
+        width: 50%;
+        border: 1px solid #dcdcdc;
+    }
+    .show-aside .profile-details .mobile-aside-toggle {
+        display: block;
+        position: fixed !important;
+        top: 45px !important;
+        right: 36px;
+        z-index: 1000;
+    }
+}
+@media (max-width: 576px) {
+    .profile-details .mobile-aside-toggle {
+        top: -25px;
+    }
+    .skills-wrapper .skill-item + .skill-item {
+        margin-top: 15px;
+    }
+    .skills-wrapper .skill-item .skill-name {
+        font-size: 14px;
+    }
+}
+/* --- Profile details page end --- */

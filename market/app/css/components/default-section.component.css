@@ -1,0 +1,16 @@
+.default-section {
+    padding: 120px 0;
+}
+
+.content-section {
+    padding-top: 48px;
+    padding-bottom: 135px;
+}
+@media (max-width: 575px) {
+    .default-section {
+        padding: 60px 0;
+    }
+    .content-section {
+        padding-bottom: 50px;
+    }
+}

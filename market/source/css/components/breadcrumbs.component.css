@@ -1,0 +1,27 @@
+/*  --- Breadcrumbs start --- */
+.breadcrumb {
+    padding: 0;
+    margin-bottom: 39px;
+    background-color: transparent;
+}
+.breadcrumb-item {
+    color: #b0bec5;
+}
+.breadcrumb-item a:hover {
+    color: inherit;
+}
+.breadcrumb-item.active {
+    color:#263238 ;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #8bc34a;
+    content: "-";
+}
+@media  (max-width: 575px){
+    .breadcrumb {
+        display: none;
+    }
+}
+/*  --- Breadcrumbs end --- */

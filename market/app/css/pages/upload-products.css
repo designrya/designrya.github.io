@@ -1,0 +1,20 @@
+/* --- Upload Products page start --- */
+.upload-product-wrapp .content-wrapper .content-wrapper-body {
+    padding: 43px 48px 70px 45px;
+}
+
+.upload-product-wrapp .btn-lg.btn-green {
+    margin-top: 42px;
+}
+
+@media (max-width: 767px) {
+    .upload-product-wrapp .btn-lg.btn-green {
+        width: 100%;
+    }
+}
+@media (max-width: 576px) {
+    .upload-product-wrapp .content-wrapper .content-wrapper-body {
+        padding: 25px;
+    }
+}
+/* --- Upload Products page end --- */

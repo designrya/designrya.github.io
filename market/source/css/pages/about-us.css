@@ -1,0 +1,14 @@
+/* --- About Us page start --- */
+.about-us-wrapp .content-wrapper .content-wrapper-body {
+    padding: 45px 65px 0 50px;
+}
+
+.about-us-wrapp .default-text {
+    margin-bottom: 52px;
+}
+@media (max-width: 767px) {
+    .about-us-wrapp .content-wrapper .content-wrapper-body {
+        padding: 30px 45px 0 40px;
+    }
+}
+/* --- About Us page end --- */

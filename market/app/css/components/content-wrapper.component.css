@@ -1,0 +1,13 @@
+/* content-wrapper start */
+.content-wrapper {
+    background-color: #fff;
+    border: 1px solid #dedede;
+}
+.content-wrapper .content-wrapper-title {
+    padding: 20px 34px;
+    border-bottom: 1px solid #dedede;
+}
+.content-wrapper .content-wrapper-body {
+    padding: 30px 34px 80px;
+}
+/* content-wrapper end */

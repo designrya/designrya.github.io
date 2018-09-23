@@ -1,0 +1,34 @@
+/* --- Background color start--- */
+.bg-dark-grey {
+    background-color: #263238; 
+}
+.bg-grey {
+    background-color: #d4d4d4;
+}
+.bg-light-grey {
+    background-color: #f4f6f5;
+}
+.bg-green {
+    background-color: #8bc34a;
+}
+/* --- Background color end--- */
+/* --- Text color start--- */
+.text-dark-grey {
+    color: #263238;
+}
+.text-light-dark {
+    color: #444;
+}
+.text-green {
+    color: #8bc34a;
+}
+.text-cadet-blue {
+    color: #546e7a;
+}
+.text-light-blue {
+    color: #70838d;
+}
+.text-light-cyan {
+    color: #b7c3c8;
+}
+/* --- Text color end--- */
